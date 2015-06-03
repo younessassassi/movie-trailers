@@ -1,6 +1,7 @@
 import media
 import fresh_tomatoes
 
+# instatiate th movie objects
 hunger_games = media.Movie("Hunger Games",
                         "Katniss Everdeen voluntarily takes her younger sister's place in the Hunger Games, a televised fight to the death in which two teenagers from each of the twelve Districts of Panem are chosen at random to compete.",
                         "http://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg",
@@ -42,8 +43,7 @@ toy_story= media.Movie("Toy Story",
 movies = [hunger_games, midnight_in_paris, school_of_rock, avatar, ratatouille, toy_story]
 
 
-# launch the movies 
+# launch the web page displaying the movies 
 fresh_tomatoes.open_movies_page(movies)
 
 
-#avatar.show_trailer()
